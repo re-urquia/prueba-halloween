@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&family=Nanum+Pen+Script&display=swap');
+
+:root{
+	--color-general: #999;
+	--color-titulos: #29373c;
+	--fondo-gris: #f9faf2;
+	--fondo-footer: #f49f28;
+}
+
+body{
+	font-family: "Nanum Pen Script", "sans-serfi";
+	font-size: 16px;
+	color: var(--color-general);
+	
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.navbar-brand{
+	font-family: "Shojumaru", "sans-serfi";
+	font-size: 20px;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	
+}
+
+h3{
+	color: var(--color-titulos);
+	text-align: center;
+	padding-top: 40px;
+		
+	
+}
+
+.hero-subtitulo{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+}
+
+
+#hero{
+	background-image:url("../img/bg-hero.png");
+	background-size:cover;
+	background-position: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	
+}
+
+#hero h1{
+	font-family: "Shojumaru", "sans-serfi";
+	font-size: 50px;
+	color: var(--fondo-footer);
+	text-align: center;
+}
+
+.btn-warning{
+	margin-left: 45%;
+	margin-right: 45%;	
+}
+
+
+.line{
+	border: none;
+}
+
+.word-link{
+	color: var(--fondo-footer);
+}
+
+#offers{
+	text-align: center;
+	font-size: 18px;
+	padding: 25px;
+	
+}
+
+#offers .subtitulo{
+	color: var(--color-titulos);
+	
+}
+
+#offers .iconos{
+	width:20%;
+	height: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	
+}
+
+#faq{
+	background-color: var(--fondo-gris);	
+}
+
+.move-please{
+	padding-top: 20px;
+}
+
+
+#faq .img-fluid{
+	width:80%;
+	height: auto;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	margin-left: 15%;
+	
+}
+
+#faq .subtitulo{
+	color: var(--color-titulos);
+	padding-left: 20%;
+	
+	
+}
+
+#faq p{
+	padding-left: 20%;
+}
+
+.botoncito{
+	text-align: center;
+	padding-left: 20%;		
+	
+}
+
+#services{
+	padding-top: 25px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#services p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.calabacitas{
+	width:10%;
+	height: auto;
+	margin: auto;
+	padding-top: 10px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding-top: 40px;
+	text-align: center;
+	color: var(--color-titulos);
+	padding-bottom: 40px;
+}
+
+.bruja{
+	width:20%;
+	height: auto;
+	padding-bottom: 
+}
+
